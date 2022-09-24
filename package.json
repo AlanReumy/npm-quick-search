@@ -3,6 +3,7 @@
   "displayName": "npm-quick-search",
   "description": "search npm package quickly in vscode",
   "version": "0.0.1",
+  "icon": "./public/images/icon.png",
   "publisher": "vikoala",
   "homepage": "https://github.com/vikoala/npm-quick-search",
   "repository": {
