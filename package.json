@@ -1,0 +1,48 @@
+{
+  "name": "npm-quick-search",
+  "displayName": "npm-quick-search",
+  "description": "search npm package quickly in vscode",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vikoala/npm-quick-search",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikoala/npm-quick-search"
+  },
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:npm-quick-search.searchNpmPackage"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "npm-quick-search.searchNpmPackage",
+        "title": "search npm package"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.71.0",
+    "@vscode/test-electron": "^2.1.5",
+    "eslint": "^8.20.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
