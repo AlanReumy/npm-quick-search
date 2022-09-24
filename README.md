@@ -1,6 +1,10 @@
+<p align="center">
+  <img src="public/images/icon.png" alt="drawing" width="200"/>
+</p>
+
 # npm-quick-search
 
-![usage](public/images/usage.gif)
+<img src="public/images/usage.gif" alt="drawing" width="500"/>
 
 ## Feature
 
@@ -10,7 +14,7 @@
 
 install extension in vscode
 
-![extension](public/images/extension.png)
+<img src="public/images/extension.png" alt="drawing" width="400"/>
 
 ## Usage
 
